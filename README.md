@@ -48,7 +48,7 @@ myVariable = 1
 
 We call this process **hoisting**. For all intents and purposes, hoisting applies primarily to variables declared with `var` and to function declarations. Variables declared with `let` and `const` are _technically_ hoisted, but they cannot be referenced until they're assigned. MDN offers a great explanation:
 
-> In ECMAScript 2015, `let` [and `const`] will hoist the variable to the top of the block. However, referencing the variable in the block before the variable declaration results in a ReferenceError. The variable is in a "temporal dead zone" from the start of the block until the declaration is processed.
+> In ECMAScript 2015 (ES6), `let` [and `const`] will hoist the variable to the top of the block. However, referencing the variable in the block before the variable declaration results in a ReferenceError. The variable is in a "temporal dead zone" from the start of the block until the declaration is processed.
 > [MDN - let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let)
 
 ## Variable Hoisting
@@ -199,3 +199,5 @@ Make sure you run the tests in `test/hoisting-test.js`. You'll be coding your so
 + [Tuts Plus](http://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-hoisting-readme' title='Hoisting'>Hoisting</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-hoisting-readme'>Hoisting</a> on Learn.co and start learning to code for free.</p>
